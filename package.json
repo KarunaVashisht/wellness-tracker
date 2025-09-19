@@ -1,0 +1,32 @@
+{
+	"name": "wellness-tracker",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"tailwind:init": "tailwindcss init -p"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^6.0.0",
+		"@sveltejs/kit": "^2.42.1",
+		"@sveltejs/vite-plugin-svelte": "^6.2.0",
+		"@tailwindcss/postcss7-compat": "^2.2.17",
+		"autoprefixer": "^10.4.21",
+		"postcss": "^8.5.6",
+		"svelte": "^5.38.10",
+		"svelte-preprocess": "^6.0.3",
+		"tailwindcss": "^4.1.13",
+		"vite": "^7.0.4"
+	},
+	"dependencies": {
+		"apexcharts": "^5.3.5",
+		"firebase": "^12.2.1",
+		"jspdf": "^3.0.3",
+		"jspdf-autotable": "^5.0.2",
+		"svelte-apexcharts": "^1.0.2"
+	}
+}
